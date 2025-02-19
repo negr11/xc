@@ -3,6 +3,8 @@ walk_speed_and_jump_power_gui.Name = "walk_speed_and_jump_power_gui"
 walk_speed_and_jump_power_gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 walk_speed_and_jump_power_gui.Parent = game.StarterGui
 
+ScreenGui.Parent = game.CoreGui
+
 local Frame = Instance.new("Frame")
 Frame.Position = UDim2.new(0.3891982138156891, 0, 0.4896193742752075, 0)
 Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
